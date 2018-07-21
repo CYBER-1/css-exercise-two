@@ -1,16 +1,41 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #17203d;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 85%;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.85em;
+}
+
+.author {
+text-align: center;
+font-style: italic;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000;
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
+  font-size: 1.5em;
   margin: 20px;
   width: 100px;
 }
@@ -20,12 +45,22 @@ nav {
 }
 
 .medium-pic {
+  font-size: 1.5em;
   width: 70%;
 }
 
 .left, .right {
   float: left;
   width: 50%;
+}
+
+a {
+text-decoration: none;
+color: white;
+}
+
+a:hover {
+  color: orange;
 }
 
 .right {
@@ -43,6 +78,9 @@ li {
 }
 
 article {
+  color: #414249;
+  background-color: #ffffff;
+  padding: 20px;
   padding-top: 100px;
 }
 
